@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm"]/apparel</xpath>
+        <value>
+            <layers>
+            <li>Overhead</li>
+            </layers>
+        </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="AM_MechBreakerHelm"]/apparel</xpath>
+        <value>
+            <layers>
+            <li>Overhead</li>
+            </layers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="AM_MechCommanderSuit"]/apparel/layers</xpath>
+        <value>
+            <layers>
+                <li>Cape</li>
+            </layers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="AM_MechBreakerArmor"]/apparel/layers</xpath>
+        <value>
+            <layers>
+                <li>Cape</li>
+            </layers>
+        </value>
+    </Operation>
+</Patch>

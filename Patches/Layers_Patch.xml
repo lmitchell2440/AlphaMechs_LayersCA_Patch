@@ -37,4 +37,60 @@
         </value>
     </Operation>
 
+    <!-- Royalty Equipment -->
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Cape</li>
+            </layers>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Cape</li>
+            </layers>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/apparel</xpath>
+        <value>
+            <layers>
+                <li>Cape</li>
+            </layers>
+        </value>
+    </Operation>
+
 </Patch>
